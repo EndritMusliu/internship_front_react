@@ -1,0 +1,168 @@
+.projects-container {
+    width: 1150px;
+    height: 1000px;
+    margin-left: 310px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.projects-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333; 
+}
+
+.search-wrapper {
+    position: relative;
+    bottom: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 950px;
+}
+
+.search-input {
+    width: 130px;
+    height: 20px;
+    padding: 8px 12px;
+    margin-top: 15px;
+    padding-left: 35px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #666;
+    font-size: 18px;
+}
+
+.table-container {
+    margin-left: 400px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 15px;
+}
+
+.custom-table {
+    width: 900px;
+    border-collapse: collapse;
+}
+
+.custom-table thead {
+    background: #f8f9fa;
+    font-weight: bold;
+}
+
+.custom-table th, 
+.custom-table td {
+    padding: 5px 12px;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.custom-table th {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #0f0f0f;
+}
+
+.custom-table td:first-child {
+    font-weight: bold;
+}
+
+.custom-table td{
+    font-size: 13px;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn svg {
+    color: rgb(65, 64, 64);
+}
+
+.delete-btn svg {
+    color: rgb(65, 64, 64);
+}
+
+.priority-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.priority-por {
+    background-color: green;
+}
+
+.priority-market {
+    background-color: gray;
+}
+
+.product-info{
+    color: #666;
+    font-weight: 400;
+}
+
+.product-name{
+    color: #0000FF;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 980px;
+}
+
+.pagination button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+}
+
+.pagination button:disabled {
+    background-color: transparent;
+    cursor: not-allowed;
+    color: black;
+}

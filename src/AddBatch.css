@@ -1,0 +1,207 @@
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    padding: 15px 20px;
+    margin-left: 310px;
+    width: 500px;
+}
+
+.nav h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+#gohome{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #0000FF;
+}
+
+#project{
+    color: #0000FF;
+}
+
+.nav p{
+    color: 	#808080;
+    padding-left: 2px;
+}
+
+.add-batch{
+    width: 680px;
+    height: 1600px;
+    margin-top: 10px;
+    margin-left: 310px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+
+.add-batch h4{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.batch-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px
+}
+
+.batch-group{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.batch-toggle-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .batch-toggle-label {
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .batch-toggle-label input {
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .batch-toggle-label input:checked {
+    background: #41e166;
+  }
+  
+  .batch-toggle-label input::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 50%;
+    top: 1px;
+    left: 2px;
+    transition: transform 0.3s ease;
+  }
+  
+  .batch-toggle-label input:checked::before {
+    transform: translateX(20px);
+  }
+
+  #batch-op{
+    grid-column: 1 / 2;
+    margin-bottom: 10px;
+  }
+
+  #resources{
+    grid-column: 1/2;
+  }
+
+  .checked-batch{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+
+  .checked-batch input{
+    width: 15px;
+    height: 15px;
+    display: flex;
+  }
+
+  #batch-button1{
+    grid-column: 1 / 2;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #3b5998; 
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #3b5998;
+    width: 90px;
+    height: 40px
+  }
+
+  #batch-button2{
+    grid-column: 2 / 2;
+    margin-bottom: 10px;
+    position: relative;
+    right: 310px;
+    background-color: transparent; 
+    color: orange;
+    border-radius: 5px;
+    border: 2px solid orange;
+    width: 90px;
+    height: 40px;
+  }
+
+  #batch-button3{
+    grid-column: 2 / 2;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 65px;
+    right: 110px;
+    background-color: transparent; 
+    color: red;
+    border-radius: 5px;
+    border: 2px solid red;
+    width: 90px;
+    height: 40px;
+  }
+
+  .toast-error-custom1 { 
+    font-weight: bold; 
+    font-family: "Unbounded", sans-serif;
+    color: #000;
+    font-size: 15px;
+  }
+
+  .preview{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 1000px;
+    bottom: 1600px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+  }
+
+  .batch-icon{
+    display: flex;
+    justify-content:center;
+    align-items:baseline;
+    padding-top: 100px;
+  }
+
+  .preview h2{
+    padding-left: 200px;
+    padding-top: 5px;
+    font-size: 25px;
+  }
+
+  .preview p{
+    padding-left: 120px;
+  }

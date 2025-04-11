@@ -1,0 +1,258 @@
+.addProject{
+    width: 1200px;
+    height: 1800px;
+    margin-top: 10px;
+    margin-left: 310px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+  }
+  
+  .addProject h4{
+      padding-left: 10px;
+      padding-top: 10px;
+      font-size: 15px;
+      color: black;
+  }
+  
+  .form-container {
+      max-width: 1200px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+      text-align: left;
+      margin-bottom: 20px;
+  }
+  
+  .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+  }
+  
+  .form-group {
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+  }
+  
+  .checked-group{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+  }
+  
+  .checked-group input{
+      width: 15px;
+      height: 15px;
+      display: flex;
+  }
+  
+  .form-group option{
+      color:#808080;
+  }
+  
+  label {
+      color: #808080;
+      font-size: 12px;
+      margin-bottom: 5px;
+      font-weight: 600;
+  }
+  
+  input, select {
+      padding: 8px;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+  }
+  
+  .form-footer {
+      text-align: right;
+      margin-top: 20px;
+  }
+  
+  button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  
+  .toggle-switch {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+    }
+    
+    .toggle-switch label {
+      font-size: 14px;
+      color: #666;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .toggle-switch input {
+      appearance: none;
+      width: 40px;
+      height: 20px;
+      background: #ccc;
+      border-radius: 10px;
+      position: relative;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    
+    .toggle-switch input:checked {
+      background: #4169E1;
+    }
+    
+    .toggle-switch input::before {
+      content: '';
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      background: white;
+      border-radius: 50%;
+      top: 1px;
+      left: 2px;
+      transition: transform 0.3s ease;
+    }
+    
+    .toggle-switch input:checked::before {
+      transform: translateX(20px);
+    }
+  
+  @media (max-width: 768px) {
+      .form-grid {
+          grid-template-columns: 1fr;
+      }
+  }
+  
+  .nav-add{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    padding: 15px 20px;
+    margin-left: 310px;
+    width: 500px;
+  }
+  
+  .nav-add h2, .nav-add p {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  #goAdd{
+      font-size: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+      color: #0000FF;
+  }
+  
+  #projectAdd{
+      color: #0000FF;
+  }
+  
+  .nav-add p{
+      color: 	#808080;
+      padding-left: 2px;
+  }
+ 
+  .toast-error-custom { 
+      font-weight: bold; 
+      font-family: "Unbounded", sans-serif;
+      color: #000;
+      font-size: 15px;
+    }
+  
+    #market-p{
+      margin-left: 15px;
+    }
+  
+    #item1{
+      grid-column: 1 / 2;
+      margin-bottom: 10px;
+    }
+  
+    #deployment-p{
+      margin-left: 15px;
+    }
+  
+    #comercial-p{
+      margin-left: 15px;
+    }
+  
+    #item2{
+      grid-column: 1 / 2;
+      margin-bottom: 10px;
+    }
+  
+    #item3{
+      grid-column: 1 / 2;
+      margin-bottom: 10px;
+    }
+  
+    #btn1{
+      grid-column: 1 / 2;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      background-color: #3b5998; 
+      color: white;
+      border-radius: 5px;
+      border: 2px solid #3b5998;
+      width: 90px;
+      height: 40px;
+  
+    }
+  
+    #btn2{
+      grid-column: 2 / 2;
+      margin-bottom: 10px;
+      position: relative;
+      right: 300px;
+      background-color: transparent; 
+      color: orange;
+      border-radius: 5px;
+      border: 2px solid orange;
+      width: 90px;
+      height: 40px;
+  
+    }
+  
+    #btn3{
+      grid-column: 2 / 2;
+      margin-bottom: 10px;
+      position: relative;
+      bottom: 65px;
+      right: 110px;
+      background-color: transparent; 
+      color: red;
+      border-radius: 5px;
+      border: 2px solid red;
+      width: 90px;
+      height: 40px;
+  
+    }
+  
+  
+  
+  

@@ -1,0 +1,126 @@
+.nav-batch{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    padding: 15px 20px;
+    margin-left: 310px;
+    width: 500px;
+}
+
+.nav-batch h2{
+    font-size: 18px;
+    padding-right: 10px;
+    color: #808080;
+}
+
+#gohomebatch{
+    font-size: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #0000FF;
+}
+
+#projectbatch{
+    color: #0000FF;
+}
+
+.nav-batch p{
+    color: 	#808080;
+    padding-left: 2px;
+}
+
+.addbatch{
+    background-color: #4169E1;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1300px;
+    margin-bottom: 10px;
+}
+
+.filter-dropdowns-batch {
+    width: 1100px;
+    max-width: 1200px;
+    height: 250px;
+    margin-left: 310px;
+    padding: 20px;
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-grid-batch{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.form-group-batch {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.toggle-container-batch {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .toggle-label-batch {
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .toggle-label-batch input {
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .toggle-label-batch input:checked {
+    background: #4169E1;
+  }
+  
+  .toggle-label-batch input::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 50%;
+    top: 1px;
+    left: 2px;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-label-batch input:checked::before {
+    transform: translateX(20px);
+  }
+
+  #toggle{
+    grid-column: 1 / 2;
+    margin-left: 10px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  

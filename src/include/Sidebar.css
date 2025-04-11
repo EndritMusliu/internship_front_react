@@ -1,0 +1,142 @@
+/*Sidebar*/
+.sidebar{
+    background-color: #fff;
+    color: black;
+    height: 100vh;
+    width: 268px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 4px 0 6px rgba(52, 52, 52, 1.1);
+    border: none;
+}
+
+
+.logo{
+    display: flex;
+    align-self: center;
+    padding: 1rem;
+}
+
+.logo .comcast{
+  margin-right: 0.5rem;
+}
+
+.logo .dashboard-link{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list-group-item {
+    color: black;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.list-group-item span {
+    text-decoration: none;
+    margin-left: 5px;
+  }
+.comcast{
+    width:60px;
+    height: 50px;
+}
+
+.list-group-item.active-link {
+    color: black;
+}
+
+.list-group-item:hover {
+    background-color: white;
+    color: black;
+    transform: translateX(5px);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list-group-item link{
+    text-decoration: none;
+}
+
+.dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  content: ">";
+  font-size: 12px;
+  font-weight: 800;
+  margin-left: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Rotate arrow downward when dropdown is open */
+.dropdown-toggle[aria-expanded="true"]::after {
+  transform: rotate(90deg);
+}
+
+.dropdown-menu {
+  display: none;
+  padding-left: 20px;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #6c757d;
+  padding: 5px 10px;
+}
+
+.dropdown-item::before {
+  content: "○"; 
+  margin-right: 8px;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+  #d-text{
+    background: linear-gradient(to right,#0000FF,#1E90FF);
+    color: white;
+  }
+   .p-text{
+    color: grey;
+    font-size: 12px;
+   position: relative;
+   top:30px;
+   right: 85px;
+   }
+
+   .dot-circle{
+    color: blue;
+    position: relative;
+    top: 20px;
+    width: 17px;
+    height: 17px;
+   }
+  

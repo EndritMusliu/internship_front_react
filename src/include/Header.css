@@ -1,0 +1,81 @@
+/* Header */
+.header {
+    max-width: 1300px; 
+    margin: 5px 100px;
+    margin-left: 300px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .icons {  
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .user-avatar {
+    width: 30px;
+    height: 30px;
+    background-color: #00008B;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bookmark {
+    color: #FF8C00;
+    font-weight: 600;
+  }
+  
+  .bell-container{
+    position: relative;
+    display: inline-block;
+  }
+  
+  #bell{
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .notification-badge{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #00008B;
+    color: white;
+    font-size: 0.8rem;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }

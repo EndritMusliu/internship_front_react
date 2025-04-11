@@ -1,0 +1,102 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #073642, #021014);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.title {
+    color: #3df07e;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+.form-container {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+
+/* Labels */
+.form-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9ca3af;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #334155;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.input-icon {
+    color: #9ca3af;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Submit Button */
+.submit-button {
+    width: 100%;
+    background: #16a34a;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background: #15803d;
+}
+
+/* Link Text */
+.link-text {
+    text-align: center;
+    color: #9ca3af;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.link-text a {
+    color: #3df07e;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link-text a:hover {
+    color: #16a34a;
+}
